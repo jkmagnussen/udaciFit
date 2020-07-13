@@ -1,0 +1,12 @@
+{
+  "name": "udaciFit",
+  "displayName": "udaciFit",
+  "expo": {
+    "name": "udaciFit",
+    "slug": "udaciFit",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
