@@ -6,6 +6,8 @@ import {
   MaterialCommunityIcons,
 } from "@expo/vector-icons";
 
+import { View } from "react-native";
+
 import { gray } from "./colors";
 
 // utils/helpers.js
