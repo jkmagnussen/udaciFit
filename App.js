@@ -13,7 +13,7 @@ export default class App extends React.Component {
           value={this.state.value}
           onValueChange={(value) => this.setState(() => ({ value }))}
         />
-        <Text>Value: {this.state.value} </Text>
+        <Text>Valuee: {this.state.value} </Text>
         <AddEntry />
       </View>
     );
