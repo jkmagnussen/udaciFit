@@ -37,7 +37,7 @@ export default class AddEntry extends Component {
 
   decrement = (metric) => {
     this.setState((state) => {
-      const count = state[metric] - step;
+      const count = state[metric] - getMetricMetaInfo(metric).step;
 
       return {
         ...state,
@@ -70,7 +70,7 @@ export default class AddEntry extends Component {
 
     // Save to "DB"
 
-    //cLEAR LOCAL NOTIFICATION
+    //CLEAR LOCAL NOTIFICATION
   };
 
   render() {

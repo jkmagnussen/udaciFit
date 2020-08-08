@@ -9,11 +9,6 @@ export default class App extends React.Component {
   render() {
     return (
       <View>
-        <Slider
-          value={this.state.value}
-          onValueChange={(value) => this.setState(() => ({ value }))}
-        />
-        <Text>Value: {this.state.value} </Text>
         <AddEntry />
       </View>
     );
