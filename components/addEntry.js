@@ -22,7 +22,7 @@ export default class AddEntry extends Component {
     eat: 0,
   };
 
-  incriment = (metric) => {
+  increment = (metric) => {
     const { max, step } = getMetricMetaInfo(metric);
 
     this.setState((state) => {
@@ -95,7 +95,7 @@ export default class AddEntry extends Component {
               ) : (
                 <UdaciSteppers
                   value={value}
-                  onIncriment={() => this.incriment(key)}
+                  onIncrement={() => this.increment(key)}
                   onDecrement={() => this.decrement(key)}
                   {...rest}
                 />
