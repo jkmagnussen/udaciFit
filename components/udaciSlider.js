@@ -13,7 +13,7 @@ export default function udaciSlider({ max, unit, step, value, onChange }) {
         onValueChange={onChange}
       />
 
-      <Text>{value}</Text>
+      <Text>A{value}</Text>
       <Text>{unit}</Text>
     </View>
   );
