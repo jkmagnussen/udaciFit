@@ -2,5 +2,5 @@ import React, { Component } from "react";
 import { Text } from "react-native";
 
 export default function DateHeader({ date }) {
-  return <Text>A{date}</Text>;
+  return <Text>Aaa{date}</Text>;
 }
