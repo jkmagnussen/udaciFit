@@ -80,7 +80,7 @@ export default class AddEntry extends Component {
 
     //Update Redux
 
-    //Route to hOME
+    //Route to Home
 
     //Update DB
   };
