@@ -78,7 +78,7 @@ export default class AddEntry extends Component {
   reset = () => {
     const key = timeToString();
 
-    //Update Reduxx
+    //Update Redux
 
     //Route to Home
 
