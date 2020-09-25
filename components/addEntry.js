@@ -80,7 +80,7 @@ export default class AddEntry extends Component {
 
     //Update Redux
 
-    //Route to Homee
+    //Route to Home
 
     //Update DB
   };
@@ -130,3 +130,5 @@ export default class AddEntry extends Component {
     );
   }
 }
+
+ref 2206018
