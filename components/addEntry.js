@@ -82,7 +82,7 @@ export default class AddEntry extends Component {
 
     //Route to Homes
 
-    //Update DB
+    //Update DBs
   };
 
   render() {
