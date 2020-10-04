@@ -72,7 +72,7 @@ export default class AddEntry extends Component {
 
     // Save to "DB"
 
-    //Clear Local Navigatio
+    //Clear Local Navigation
   };
 
   reset = () => {
