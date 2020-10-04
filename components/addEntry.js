@@ -68,7 +68,7 @@ export default class AddEntry extends Component {
       eat: 0,
     }));
 
-    // Navigate to Hone
+    // Navigate to Home
 
     // Save to "DB"
 
