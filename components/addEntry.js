@@ -78,11 +78,11 @@ export default class AddEntry extends Component {
   reset = () => {
     const key = timeToString();
 
-    //Update Redux
+    // Update Redux
 
-    //Route to Homes
+    // Route to Homes
 
-    //Update DB
+    // Update DB
   };
 
   render() {
