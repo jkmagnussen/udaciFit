@@ -130,5 +130,3 @@ export default class AddEntry extends Component {
     );
   }
 }
-
-ref 2206018
