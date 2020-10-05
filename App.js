@@ -10,7 +10,6 @@ export default class App extends React.Component {
     return (
       <View>
         <AddEntry />
-        <Text>Ahhhhhhoooogalala</Text>
       </View>
     );
   }
