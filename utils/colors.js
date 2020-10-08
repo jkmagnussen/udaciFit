@@ -1,4 +1,4 @@
-// utils/colors.js comment
+// utils/colors.js commentz
 
 export const purple = "#292477";
 export const gray = "#757575";
