@@ -1,4 +1,4 @@
-// utils colors.jsS
+// utils colors.js
 
 export const purple = "#292477";
 export const gray = "#757575";
