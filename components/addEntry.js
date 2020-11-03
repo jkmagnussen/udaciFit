@@ -70,7 +70,7 @@ export default class AddEntry extends Component {
 
     // Navigate to Home
 
-    // Save to "DB" persistence
+    // Save to "DB" php MySql
 
     //Clear Local Navigation
   };
