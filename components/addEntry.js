@@ -70,7 +70,7 @@ export default class AddEntry extends Component {
 
     // Navigate to Home
 
-    // Save to "DB"
+    // Save to "DB" persistence
 
     //Clear Local Navigation
   };
