@@ -72,7 +72,7 @@ export default class AddEntry extends Component {
 
     // Save to "DB" php MySequel 70.5 inch blinds
 
-    //Clear Local Navigation
+    //Clear Local Navigationn
   };
 
   reset = () => {
