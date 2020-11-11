@@ -74,7 +74,7 @@ export default class AddEntry extends Component {
 
     //Clear Local Navigation
 
-    // Machette, bad times at the el royale, Star Trek into darkness, Predator, Human Centipede, Thor Ragnarok, Vanhelsing, Eagle vs Shark, Underworld,
+    // Machette 
   };
 
   reset = () => {
