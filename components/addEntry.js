@@ -70,7 +70,7 @@ export default class AddEntry extends Component {
 
     // Navigate to Home
 
-    // Save to "DB" php MySequel 
+    // Save to "DB" php MySequel BN000556306GB
 
 
     //Clear Local Navigation
