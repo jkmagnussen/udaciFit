@@ -75,7 +75,7 @@ export default class AddEntry extends Component {
 
     //Clear Local Navigation
 
-    // M
+    // 
   };
 
   reset = () => {
