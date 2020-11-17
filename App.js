@@ -1,6 +1,9 @@
 import React from "react";
-import { Text, View, Slider, StyleSheet } from "react-native";
+import { Text, View, Slider, StyleSheet, Platform } from "react-native";
 import AddEntry from "./components/addEntry.js";
+import { createStore } from "redux"
+import { Provider } from 'react-redux'
+import reducer from "./reducers"
 
 export default class App extends React.Component {
   state = {
@@ -8,9 +11,12 @@ export default class App extends React.Component {
   };
   render() {
     return (
-      <View>
-        <AddEntry />
-      </View>
+      <Provider store={createStore(reducer)}>
+        <View style={{flex: 1}}>
+         <AddEntry />
+       </View>
+      </Provider>
+
     );
   }
 }
