@@ -12,7 +12,7 @@ export default class App extends React.Component {
   };
   render() {
     return (
-      // Main Body of App
+      // Main Body of Appp
       <Provider store={createStore(reducer)}>
         <View style={{ flex: 1 }}>
           <View style={{height: 20}} />
