@@ -13,6 +13,8 @@ import EntryDetail from './components/EntryDetail'
 import Live from './components/Live'
 import { setLocalNotification } from './utils/helpers'
 
+// app comment 
+
 function UdaciStatusBar ({backgroundColor, ...props}) {
     return (
         <View style={{ backgroundColor, height: Constants.statusBarHeight }}>
