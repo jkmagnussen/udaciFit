@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Platform, StatusBar } from 'react-native'
-import AddEntry from './components/AddEntry'
+import AddEntry from './components/addEntry'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import reducer from './reducers'
@@ -13,7 +13,7 @@ import EntryDetail from './components/EntryDetail'
 import Live from './components/Live'
 import { setLocalNotification } from './utils/helpers'
 
-// app comment 
+// app comment r
 
 function UdaciStatusBar ({backgroundColor, ...props}) {
     return (
